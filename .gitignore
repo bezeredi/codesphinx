@@ -15,3 +15,7 @@
 *.exe
 *.out
 *.app
+
+# Others
+*.orig		#! Files before code formatting
+
