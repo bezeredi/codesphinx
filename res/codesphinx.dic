@@ -1,0 +1,72 @@
+#  codesphinx: keep track of all of those less than flattering words you use
+#  while coding.
+#
+#  Copyright (C) 2013 Evan Bezeredi <bezeredi.dev@gmail.com>
+#
+#  This program is free software: you can redistribute it and/or modify
+#  it under the terms of the GNU General Public License as published by
+#  the Free Software Foundation, either version 3 of the License, or
+#  (at your option) any later version.
+#
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU General Public License for more details.
+#
+#  You should have received a copy of the GNU General Public License
+#  along with this program.  If not, see http://www.gnu.org/licenses/
+#
+#!
+#  This is the codesphinx dictionary. Just a small list of key words that are
+#  used in recognition. All of the words listed here were pulled from the
+#  Carnegie Mellon University (CMU) cmusphinx dictionary which can be found
+#  here: http://svn.code.sf.net/p/cmusphinx/code/trunk/cmudict/
+#
+#  Some of the words listed in this dictionary are not listed in the cmusphinx
+#  dictionary. These words are concatenations of existing words of ease of use.
+#
+
+#! Damn and it's derivations
+DAMMIT  D AE1 M IH0 T
+DAMN  D AE1 M
+DAMNED  D AE1 M D
+GODDAM  G AA1 D D AE2 M
+GODDAMIT  G AA1 D D AE2 M IH0 T
+GODDAMN  G AA1 D D AE2 M
+GODDAMNIT  G AA1 D D AE2 M IH0 T
+
+
+#! Fuck and it's derivations
+FUCK  F AH1 K
+FUCKED  F AH1 K T
+MOTHER-FUCKER  M AH1 DH ER0 F AH1 K ER0
+FUCKER  F AH1 K ER0
+FUCKERS  F AH1 K ER0 Z
+FUCKING  F AH1 K IH0 NG
+FUCKS  F AH1 K S
+
+
+#! Shit and it's derivations
+BULLSHIT  B UH1 L SH IH2 T
+SHIT  SH IH1 T
+SHITTY  SH IH1 T IY2
+
+
+#! Bitch and it's derivations
+BITCH  B IH1 CH
+
+
+#! Why and it's derivations
+WHY  W AY1
+WHY(1)  HH W AY1
+WHY'D  W AY1 D
+WHY'D(1)  HH W AY1 D
+WHY'S  W AY1 Z
+WHY'S(1)  HH W AY1 Z
+WHYS  W AY1 Z
+WHYS(1)  HH W AY1 Z
+
+
+#! Success words
+GOTIT  G AA1 T IH1 T
+
