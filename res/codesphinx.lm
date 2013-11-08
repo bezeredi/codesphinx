@@ -1,0 +1,162 @@
+Language model created by QuickLM on Fri Nov  8 17:52:18 EST 2013
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 29 sentences and 36 words
+
+\data\
+ngram 1=36
+ngram 2=64
+ngram 3=39
+
+\1-grams:
+-0.8254 </s> -0.3010
+-0.8254 <s> -0.2173
+-2.2878 A -0.2965
+-1.9868 BITCH -0.2307
+-2.2878 BULLSHIT -0.2307
+-2.2878 DAMN -0.2307
+-2.2878 DAMNED -0.2307
+-2.2878 DAMNIT -0.2307
+-1.9868 ERROR -0.2307
+-2.2878 ERRORS -0.2307
+-2.2878 FAULT -0.2307
+-2.2878 FUCK -0.2307
+-2.2878 FUCKED -0.2307
+-1.9868 FUCKER -0.2307
+-2.2878 FUCKING -0.2307
+-2.2878 FUCKS -0.2307
+-2.2878 GOD -0.2307
+-2.2878 GODDAMN -0.2307
+-2.2878 GODDAMNIT -0.2307
+-1.9868 GOT -0.2965
+-2.2878 I -0.2965
+-2.2878 IT -0.2307
+-2.2878 MOTHER -0.2965
+-2.2878 OF -0.2988
+-2.2878 SEG -0.2988
+-2.2878 SHIT -0.2307
+-2.2878 SHITTY -0.2307
+-2.2878 SON -0.2988
+-2.2878 SYNTAX -0.2965
+-2.2878 THAT'S -0.2965
+-2.2878 THIS -0.2307
+-2.2878 WARNING -0.2307
+-2.2878 WARNINGS -0.2307
+-1.9868 WHY -0.2307
+-2.2878 WHY'D -0.2307
+-2.2878 WHY'S -0.2307
+
+\2-grams:
+-1.7634 <s> BITCH 0.0000
+-1.7634 <s> BULLSHIT 0.0000
+-1.7634 <s> DAMN 0.0000
+-1.7634 <s> DAMNED 0.0000
+-1.7634 <s> DAMNIT 0.0000
+-1.7634 <s> ERROR 0.0000
+-1.7634 <s> ERRORS 0.0000
+-1.7634 <s> FUCK 0.0000
+-1.7634 <s> FUCKED 0.0000
+-1.7634 <s> FUCKER 0.0000
+-1.7634 <s> FUCKING 0.0000
+-1.7634 <s> FUCKS 0.0000
+-1.7634 <s> GOD 0.0000
+-1.7634 <s> GODDAMN 0.0000
+-1.7634 <s> GODDAMNIT 0.0000
+-1.7634 <s> GOT -0.1761
+-1.7634 <s> I 0.0000
+-1.7634 <s> MOTHER 0.0000
+-1.7634 <s> SEG 0.0000
+-1.7634 <s> SHIT 0.0000
+-1.7634 <s> SHITTY 0.0000
+-1.7634 <s> SON 0.0000
+-1.7634 <s> SYNTAX 0.0000
+-1.7634 <s> THAT'S 0.0000
+-1.7634 <s> WARNING 0.0000
+-1.7634 <s> WARNINGS 0.0000
+-1.7634 <s> WHY 0.0000
+-1.7634 <s> WHY'D 0.0000
+-1.7634 <s> WHY'S 0.0000
+-0.3010 A BITCH 0.0000
+-0.3010 BITCH </s> -0.3010
+-0.3010 BULLSHIT </s> -0.3010
+-0.3010 DAMN </s> -0.3010
+-0.3010 DAMNED </s> -0.3010
+-0.3010 DAMNIT </s> -0.3010
+-0.3010 ERROR </s> -0.3010
+-0.3010 ERRORS </s> -0.3010
+-0.3010 FAULT </s> -0.3010
+-0.3010 FUCK </s> -0.3010
+-0.3010 FUCKED </s> -0.3010
+-0.3010 FUCKER </s> -0.3010
+-0.3010 FUCKING </s> -0.3010
+-0.3010 FUCKS </s> -0.3010
+-0.3010 GOD </s> -0.3010
+-0.3010 GODDAMN </s> -0.3010
+-0.3010 GODDAMNIT </s> -0.3010
+-0.6021 GOT IT 0.0000
+-0.6021 GOT THIS 0.0000
+-0.3010 I GOT -0.1761
+-0.3010 IT </s> -0.3010
+-0.3010 MOTHER FUCKER 0.0000
+-0.3010 OF A 0.0000
+-0.3010 SEG FAULT 0.0000
+-0.3010 SHIT </s> -0.3010
+-0.3010 SHITTY </s> -0.3010
+-0.3010 SON OF 0.0000
+-0.3010 SYNTAX ERROR 0.0000
+-0.3010 THAT'S WHY 0.0000
+-0.3010 THIS </s> -0.3010
+-0.3010 WARNING </s> -0.3010
+-0.3010 WARNINGS </s> -0.3010
+-0.3010 WHY </s> -0.3010
+-0.3010 WHY'D </s> -0.3010
+-0.3010 WHY'S </s> -0.3010
+
+\3-grams:
+-0.3010 <s> BITCH </s>
+-0.3010 <s> BULLSHIT </s>
+-0.3010 <s> DAMN </s>
+-0.3010 <s> DAMNED </s>
+-0.3010 <s> DAMNIT </s>
+-0.3010 <s> ERROR </s>
+-0.3010 <s> ERRORS </s>
+-0.3010 <s> FUCK </s>
+-0.3010 <s> FUCKED </s>
+-0.3010 <s> FUCKER </s>
+-0.3010 <s> FUCKING </s>
+-0.3010 <s> FUCKS </s>
+-0.3010 <s> GOD </s>
+-0.3010 <s> GODDAMN </s>
+-0.3010 <s> GODDAMNIT </s>
+-0.3010 <s> GOT IT
+-0.3010 <s> I GOT
+-0.3010 <s> MOTHER FUCKER
+-0.3010 <s> SEG FAULT
+-0.3010 <s> SHIT </s>
+-0.3010 <s> SHITTY </s>
+-0.3010 <s> SON OF
+-0.3010 <s> SYNTAX ERROR
+-0.3010 <s> THAT'S WHY
+-0.3010 <s> WARNING </s>
+-0.3010 <s> WARNINGS </s>
+-0.3010 <s> WHY </s>
+-0.3010 <s> WHY'D </s>
+-0.3010 <s> WHY'S </s>
+-0.3010 A BITCH </s>
+-0.3010 GOT IT </s>
+-0.3010 GOT THIS </s>
+-0.3010 I GOT THIS
+-0.3010 MOTHER FUCKER </s>
+-0.3010 OF A BITCH
+-0.3010 SEG FAULT </s>
+-0.3010 SON OF A
+-0.3010 SYNTAX ERROR </s>
+-0.3010 THAT'S WHY </s>
+
+\end\
