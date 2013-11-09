@@ -16,6 +16,13 @@
 *.out
 *.app
 
-# Others
+#! Others
 *.orig		#! Files before code formatting
+
+#! Directories
+bin/
+src/test
+src/lib
+res/scripts
+res/sphinxdict
 
