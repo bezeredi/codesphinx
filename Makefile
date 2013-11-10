@@ -25,7 +25,10 @@ all:
 		`pkg-config --cflags --libs pocketsphinx sphinxbase`
 
 run:
-	$(PROG)
+	export LD_LIBRARY_PATH=/usr/local/lib/
+	$(PROG) -hmm src/lib/pocketsphinx-0.8/model/hmm/en_US/hub4wsj_sc_8k \
+		-lm res/codesphinx.lm \
+		-dict res/codesphinx.dic
 
 clean:
 	rm -f $(PROG)
