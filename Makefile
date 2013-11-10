@@ -20,7 +20,7 @@
 PROG = bin/codesphinx
 
 all:
-	gcc -Wall -g -o $(PROG) src/main.c \
+	gcc -Wall -O2 -o $(PROG) src/main.c \
 		-DMODELDIR=\"`pkg-config --variable=modeldir pocketsphinx`\" \
 		`pkg-config --cflags --libs pocketsphinx sphinxbase`
 
