@@ -16,9 +16,6 @@
 #include "pocketsphinx.h"
 
 
-#define CODESPHINX_RESDIR "/home/evan/projects/codesphinx/res/"
-
-
 /* Local variables */
 static jmp_buf jbuf;
 static cmd_ln_t *config;
