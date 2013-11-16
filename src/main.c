@@ -133,7 +133,7 @@ static void recognize_from_microphone(void){
 
 		/* Wait data for next utterance */
 		while ((k = cont_ad_read(cont, adbuf, 4096)) == 0)
-			sleep_msec(100);
+			sleep_msec(0);
 
 		if (k < 0)
 			E_FATAL("Failed to read audio\n");
@@ -175,7 +175,7 @@ static void recognize_from_microphone(void){
 
 			/* If no work to be done, sleep a bit */
 			if ((rem == 0) && (k == 0))
-				sleep_msec(20);
+				sleep_msec(0);
 		}
 
 		/*
