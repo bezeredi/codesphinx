@@ -1,4 +1,4 @@
-#  dafuq: count all of those less than flattering words while coding.
+#  codesphinx: count all of those less than flattering words while coding.
 #  Copyright (C) 2013 Evan Bezeredi <bezeredi.dev@gmail.com>
 #
 #  This program is free software: you can redistribute it and/or modify
@@ -14,10 +14,10 @@
 #  You should have received a copy of the GNU General Public License
 #
 #!
-#  Test makefile for dafuq.
+#  Test makefile for codesphinx.
 #
 
-PROG = bin/dafuq
+PROG = bin/codesphinx
 
 all:
 	gcc -Wall -O2 -o $(PROG) src/main.c \
@@ -27,8 +27,8 @@ all:
 run:
 	export LD_LIBRARY_PATH=/usr/local/lib/
 	$(PROG) -hmm src/lib/pocketsphinx-0.8/model/hmm/en_US/hub4wsj_sc_8k \
-		-lm res/dafuq.lm \
-		-dict res/dafuq.dic
+		-lm res/codesphinx.lm \
+		-dict res/codesphinx.dic
 
 clean:
 	rm -f $(PROG)
