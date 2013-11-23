@@ -1,5 +1,5 @@
 codesphinx
-=====
+==========
 Keep a count of all of those less than flattering words you use while coding!
 Ever run into a rather agrivating bug that just makes obsenities fly from your
 mouth? Ever wonder how many times you say any one specific obsenity?
